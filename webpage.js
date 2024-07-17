@@ -58,7 +58,7 @@ Plotly.newPlot(
        97.6340694,
        103.2258065,
        105.8479532],
-    type: 'bar'
+    type: 'line'
     }
   ],
   layout
