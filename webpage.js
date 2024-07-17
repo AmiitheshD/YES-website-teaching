@@ -64,10 +64,10 @@ var data = [
 data[0].y = data[0].y.map((v, i) => {
   const color = ['red', 'blue', 'green'][i % 3];
   return `${v} <span style="color: ${color};">&#11044;</span>`
-  data[0].x = data[0].x.map((v, i) => {
-  const color = ['red', 'blue', 'green'][i % 3];
-  return `${v} <span style="color: ${color};">&#11044;</span>`
 })
+data[0].y = data[0].y.map((v, i) => {
+  const color = ['red', 'blue', 'green'][i % 3];
+  return `${v} <span style="color: ${color};">&#11044;</span>`})
 TESTER = document.getElementById("tester");
 Plotly.newPlot(
   TESTER,
