@@ -10,7 +10,7 @@ var layout = {
     xref: 'paper',
     x: 0.05,
   },
-  paper_bgcolor: '#000000',
+  paper_bgcolor: '#301934',
   xaxis: {
     title: {
       text: 'Wavelength',
