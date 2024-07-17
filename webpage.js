@@ -3,7 +3,7 @@ var layout = {
     text:'Plot Title',
     font: {
       family: 'Courier New, monospace',
-      size: 24
+      size: 22
     },
     xref: 'paper',
     x: 0.05,
