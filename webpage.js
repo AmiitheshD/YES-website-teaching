@@ -1,6 +1,6 @@
 var layout = {
   title: {
-    text:'Plot Title',
+    text:'Spectrocopy Values',
     font: {
       family: 'Courier New, monospace',
       size: 22
@@ -8,24 +8,24 @@ var layout = {
     xref: 'paper',
     x: 0.05,
   },
-  paper_bgcolor: "orange",
+  paper_bgcolor: '#000000',
   xaxis: {
     title: {
-      text: 'x Axis Line',
+      text: 'Wavelength',
       font: {
         family: 'Courier New, monospace',
         size: 18,
-        color: '#7f7f7f'
+        color: '#ffffff'
       }
     },
   },
   yaxis: {
     title: {
-      text: 'y Axis Line',
+      text: 'Refelctance (%)',
       font: {
         family: 'Courier New, monospace',
         size: 18,
-        color: '#7f7f7f'
+        color: '#ffffff'
       }
     }
   }
