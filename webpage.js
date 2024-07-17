@@ -1,6 +1,7 @@
 var layout = {
   title: {
     text:'Spectrocopy Values',
+    color: #ffffff,
     font: {
       family: 'Courier New, monospace',
       size: 22
@@ -12,6 +13,7 @@ var layout = {
   xaxis: {
     title: {
       text: 'Wavelength',
+      color: #ffffff,
       font: {
         family: 'Courier New, monospace',
         size: 18,
