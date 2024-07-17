@@ -1,10 +1,10 @@
 var layout = {
   title: {
     text:'Spectrocopy Values',
-    color: '#ffffff',
     font: {
       family: 'Courier New, monospace',
-      size: 22
+      size: 22,
+      color: '#ffffff'
     },
     xref: 'paper',
     x: 0.05,
