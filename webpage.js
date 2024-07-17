@@ -60,7 +60,8 @@ Plotly.newPlot(
        97.6340694,
        103.2258065,
        105.8479532],
-    type: 'line'
+    type: 'line',
+    color : '#ffffff'
     }
   ],
   layout
