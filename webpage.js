@@ -1,4 +1,5 @@
 var layout = {
+  
   title: {
     text:'Spectrocopy Values',
     font: {
@@ -32,11 +33,7 @@ var layout = {
     }
   }
 };
-
-TESTER = document.getElementById("tester");
-Plotly.newPlot(
-  TESTER,
-  [
+var data = [
     {
       x: [470,
        525,
@@ -60,9 +57,17 @@ Plotly.newPlot(
        97.6340694,
        103.2258065,
        105.8479532],
-    type: 'line',
-    color : '#ffffff'
+    type: 'line'
+      
     }
-  ],
+  ];
+data[0].y = data[0].y.map((v, i) => {
+  const color = ['red', 'blue', 'green'][i % 3];
+  return `${v} <span style="color: ${color};">&#11044;</span>`
+})
+TESTER = document.getElementById("tester");
+Plotly.newPlot(
+  TESTER,
+  data,
   layout
 );
