@@ -1,10 +1,11 @@
 <script src="https://cdn.plot.ly/plotly-2.24.1.min.js" charset="utf-8"></script>
 
-<!--this div will be replaced in JS with the graph-->
-<div id="tester" style="width:1000px;height:500px;"></div>
+<center><div id="tester" style="width:1000px;height:500px;">
 <script>
+  graph = document.getElementById('graph')
+  Plotly.newPlot(graph,graphData,graphLayout)
   // Moved to -->
-</script>
+</script>/div></center>
 
 <script src="webpage.js"></script>
 <link rel="stylesheet" href="webpage.css">
